@@ -1,0 +1,225 @@
+body {
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/img/hero-mobile.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background-image: url("../../assets/img/hero.jpg");
+  }
+}
+
+#navcol-1 {
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0,0.7);
+}
+
+#title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+#subtitle {
+  font-size: 40px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+#hero-bottom {
+  color: white;
+}
+
+.p-top {
+  font-size: 26px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.p-bot {
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+}
+
+.reserve-button {
+  background-color: rgba(0,98,204,0);
+  border: 3px solid white;
+  border-radius: 30px;
+  font-weight: 200;
+  font-size: 10px;
+  font-family: Montserrat, sans-serif;
+}
+
+.btn.btn-link.btn-block.arrow-button {
+  font-size: 32px;
+  color: rgb(255,255,255);
+  margin-top: 20px;
+}
+
+.container.d-flex.flex-column.justify-content-between {
+  width: 700px;
+  max-width: 700px;
+  text-align: center;
+  height: 175px;
+  font-family: Montserrat, sans-serif;
+}
+
+.col.text-left.with-borders {
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-left: 1px solid rgba(255,255,255,0.2);
+}
+
+#video-and-stats {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #tesla-video {
+    width: 900px;
+    height: 500px;
+  }
+}
+
+#tesla-video {
+  width: 90%;
+  height: 400px;
+}
+
+.container-fluid.text-center.d-flex.flex-column.justify-content-between {
+  text-align: center;
+}
+
+.p-bot {
+  text-align: center;
+}
+
+.p-bot {
+  text-align: center;
+}
+
+.p-bot {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #video-and-stats iframe {
+    width: 900px;
+    height: 500px;
+  }
+}
+
+#video-and-stats iframe {
+  width: 90%;
+  height: 400px;
+}
+
+.table thead th {
+  text-align: left;
+  border-top: none;
+  padding-left: 0px;
+}
+
+.table td, .table th {
+  padding-left: 0;
+  padding-right: 0;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+}
+
+.cell-left {
+  text-align: left;
+  font-weight: lighter;
+  padding: .73rem;
+  padding-left: 0px;
+  padding-right: 12px;
+}
+
+.cell-right {
+  text-align: right;
+  font-weight: 600;
+  padding-right: 0;
+}
+
+
+.btn.btn-primary.btn-block.reserve-button {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#stats {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 75px;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  #stats {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    font-size: 15px;
+  }
+}
+
+#aero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/img/back.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#interior {
+  width: 100%;
+  height: 60vh;
+}
+
+@media (min-width: 768px) {
+  #interior {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+.img-fluid.figure-img {
+  max-width: 100%;
+}
+
+.figure-caption {
+  color: rgb(255,255,255);
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+#capture {
+  margin-right: 50px;
+  font-weight: 550;
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+#topview {
+  width: 100%;
+  height: 120vh;
+  background-image: url("../../assets/img/top.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
